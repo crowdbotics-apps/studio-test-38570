@@ -1,7 +1,8 @@
+import { TextInput } from "react-native";
 import React from "react";
 import { StyleSheet, ScrollView, SafeAreaView } from "react-native";
 
-const Untitled1 = () => {
+const Untitled5 = () => {
   return <SafeAreaView style={styles.safeArea}>
         <ScrollView contentContainerStyle={{
       backgroundColor: '#f0f0f1',
@@ -9,12 +10,19 @@ const Untitled1 = () => {
       position: 'relative',
       flex: 1
     }}></ScrollView>
-    </SafeAreaView>;
+    <TextInput style={styles.FoZfffBC} value="This is my text"></TextInput></SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
   safeArea: {
     height: '100%'
+  },
+  FoZfffBC: {
+    position: "absolute",
+    backgroundColor: "#ffffff",
+    borderColor: "#cccccc",
+    width: 150,
+    height: 30
   }
 });
-export default Untitled1;
+export default Untitled5;
